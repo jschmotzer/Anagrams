@@ -1,0 +1,57 @@
+.container {
+  margin: 20px auto;
+  width: 600px;
+  padding: 0px 20px 20px 20px;
+}
+th {
+  text-align: left;
+}
+
+body {
+  background-color: #FF8243;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+input[type=text] {
+  width: 600px;
+  height: 60px;
+  border-style: none;
+  font-size: 40px;
+  text-align: center;
+  background-color: #FF8243;
+}
+
+textarea:focus, input:focus{
+    outline: 0;
+}
+
+input[type=submit] {
+  margin-top: 40px;
+  visibility: hidden;
+}
+
+body {
+  text-align: center;
+}
+
+#ana_title {
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+li {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+
+#gos {
+  position: fixed;
+  bottom: -35%;
+  left: 5%;
+  height: 40%;
+  width: auto;
+}

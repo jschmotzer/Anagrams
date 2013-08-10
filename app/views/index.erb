@@ -1,0 +1,13 @@
+<div class="container">
+  <h1>Anagrams Wahoo!</h1>
+
+    <form action="/" method="POST">
+      <input type="text" name="word" autofocus>
+      <input type="submit">
+    </form>
+
+    <% if @anagrams %>
+      <%= erb :words %>
+    <% end %>
+
+</div>
